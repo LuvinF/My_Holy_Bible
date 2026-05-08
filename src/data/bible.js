@@ -1,4 +1,4 @@
-import chapterCounts from "./Books_Chapter_Count.json";
+import chapterCounts from "./Books_chapter_count.json";
 
 // auto-import ALL JSON files in folder
 const modules = import.meta.glob("./*.json", { eager: true });
